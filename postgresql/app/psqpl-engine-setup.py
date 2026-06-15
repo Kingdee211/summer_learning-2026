@@ -26,7 +26,6 @@ def get_db_engine():
         print(f"❌ DB connection failed due to the following error 👇👇👇:\n {str(ex).splitlines()[0]}")
         return None # Let the error propagate so the caller can handle/log as needed
  
-
 my_engine = get_db_engine()
 
 if my_engine:
@@ -38,7 +37,6 @@ if my_engine:
             ORDER BY name ASC
             LIMIT 3;
         """))
-        
         for user in resutls:
             # print the values as key-value pairs (dictionaries)
             print(dict(user._mapping))

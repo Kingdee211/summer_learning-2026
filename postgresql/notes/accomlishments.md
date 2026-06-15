@@ -1,4 +1,5 @@
 # Week 1 
+## Date: June 13th, 2026
 ### Accomplishments
 
     - Installed PostgreSQL
