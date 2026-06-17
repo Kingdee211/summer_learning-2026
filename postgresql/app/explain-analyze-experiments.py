@@ -92,6 +92,5 @@ def experiment_results_with_index():
         outputfile.write(f"CONCLUSION\n")
         outputfile.write(f"```\nWith no index on the salary column, query execution is slower. Adding an index can greatly improve query execution time.\n```")
         print("Done writing experiments to MD file!!\nBye😊😊😊")
-        
-        
+         
 experiment_results_with_index()
