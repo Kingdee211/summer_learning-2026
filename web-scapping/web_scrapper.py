@@ -108,5 +108,6 @@ def end_product(domain_url):
         return final_product
     except Exception as ex:
         print(f"❌❌ Error: Failed due to the error:\n{str(ex).splitlines()[0]}")
+        
 if __name__ == "__main__":
     print(end_product("utoronto.ca"))
