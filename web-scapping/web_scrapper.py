@@ -113,7 +113,7 @@ def end_product(domain_url):
         print(f"❌❌ Error: Failed due to the error:\n{str(ex).splitlines()[0]}")
         
 if __name__ == "__main__":
-    results: dict[str, str | list[str]] = end_product("utoronto.ca")
+    results: dict[str, str | list[str]] = end_product("https://apple.com")
     print("\n\n")
     print("=" * 20)
     
